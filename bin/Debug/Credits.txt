@@ -1,0 +1,4 @@
+Id,CreditNumber,UserID,Months,Sum,Percents,Bank,Approved,Cancelled
+"1243","a7wv","1234","6","12000","3,7","Сбербанк","false","false"
+"f113","n8s1","1234","24","430000","7,3","Беларусбанк","true","false"
+"1a4b","a24b","1234","6","35000","4,8","Белинвестбанк","false","true"

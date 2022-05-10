@@ -1,0 +1,62 @@
+The account 28aeb1d8 was created.
+The account 28aeb1d8 cashed out some money.
+The account 28aeb1d8 was freezed.
+The account 28aeb1d8 was unfreezed.
+The account 28aeb1d8 was deleted.
+The account f4c60409 was created.
+The account f4c60409 updated saving sum.
+The account 1ce8a3fc was created.
+The account 1ce8a3fc updated saving sum.
+The account 1ce8a3fc cashed out some money.
+The account 1ce8a3fc updated accumulation sum.
+The account 1ce8a3fc was freezed.
+The account 1ce8a3fc was unfreezed.
+The account 1ce8a3fc was deleted.
+The account 38b9cdab was created.
+The account 38b9cdab updated saving sum.
+The account 38b9cdab cashed out some money.
+The account 38b9cdab updated accumulation sum.
+The account 50556221 was created.
+The account 50556221 updated saving sum.
+The account d9ad3eb0 was created.
+The account d9ad3eb0 updated saving sum.
+The account d9ad3eb0 updated saving sum.
+The account d9ad3eb0 updated saving sum.
+The account 7904eff5 was created.
+The account 7904eff5 updated saving sum.
+The account 7904eff5 updated saving sum.
+The account 7904eff5 updated accumulation sum.
+The account 7904eff5 was freezed.
+The account 7904eff5 was unfreezed.
+The account 7904eff5 was freezed.
+The account 7904eff5 was unfreezed.
+The account 7904eff5 was deleted.
+The account 5dd4469d was created.
+The account 5dd4469d was freezed.
+The account 5dd4469d updated saving sum.
+The account 5dd4469d updated saving sum.
+The account 5dd4469d was unfreezed.
+The account 5dd4469d updated saving sum.
+The account ebde8ae0 was created.
+The account e945da3d was created.
+The account 1a6f18f6 was created.
+The account 1a6f18f6 cashed out some money.
+The account dfea77e6 was created.
+The account dfea77e6 updated accumulation sum.
+The account 71a78d61 was created.
+The account 71a78d61 updated accumulation sum.
+The account 71a78d61 updated saving sum.
+The account 8f40b2ae was created.
+The account 8f40b2ae updated saving sum.
+The account 8f40b2ae updated accumulation sum.
+The account 8f40b2ae was freezed.
+The account 8f40b2ae was unfreezed.
+The account 8f40b2ae was deleted.
+The account 646f3a31 was created.
+The account 646f3a31 updated saving sum.
+The account 646f3a31 updated accumulation sum.
+The account 646f3a31 was freezed.
+The account 646f3a31 was unfreezed.
+The account 015a9bbf was created.
+The account 8a11e450 was created.
+The account b94fa77c was created.

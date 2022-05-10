@@ -1,0 +1,2 @@
+Id,InstallmentNumber,UserID,Months,Sum,Percents,Bank,Approved,Cancelled
+"1243","a7wv","1234","6","12000","1,3","Сбербанк","false","false"

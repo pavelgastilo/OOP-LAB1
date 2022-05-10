@@ -1,0 +1,5 @@
+Id,AccountNumber,UserID,BankName,CompanyName,Sum,SavingSum,AccumulationSum,Active
+"1312","1111","1234","Сбербанк","-","12000","1000","0","true"
+"3142","4215","1234","Беларусбанк","-","43000","12000","2000","true"
+"3d14gs2","42af5","1234","Беларусбанк","SAS","97000","2000","2000","true"
+"ht21","12cns","gd61f2","Беларусбанк","Hardbass","10000","0","0","true"
