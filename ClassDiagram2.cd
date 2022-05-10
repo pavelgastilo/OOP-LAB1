@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="lab1.User" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAwABAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>Models\Classes\Roles\Abstractions\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1.Admin" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhAAAAAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Classes\Roles\Admin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lab1.AnotherSpecialist" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAQAAAEAAQIAAACAAAAAAAAAAACAAAAAAAAAABAAA=</HashCode>
+      <FileName>Models\Classes\Roles\AnotherSpecialist.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1.Client" Collapsed="true">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAAACECIQACAAABAQQAAAAAICAACAUAAABABAIEA=</HashCode>
+      <FileName>Models\Classes\Roles\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1.Operator" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAEAQQAAAAAAACAAAAAAAAAAABAAAAAEAAAAA=</HashCode>
+      <FileName>Models\Classes\Roles\Operator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1.Manager" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAEQAAEACAAAgAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Models\Classes\Roles\Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1.ManagerController" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAQAAEACIACgAAEAAAAAAAAAAAAAEkAIAA=</HashCode>
+      <FileName>Controllers\ManagerController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="manager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.OperatorController" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAQAAAAAIECAAAAAAAFAAAAAAAAAEAAIAA=</HashCode>
+      <FileName>Controllers\OperatorController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_operator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.OperatorForm" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQggAACAEIBiIAACACIACAEAIAAEAAUAIgAAAIAA=</HashCode>
+      <FileName>View\OperatorForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Operator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.ManagerForm" Collapsed="true">
+    <Position X="4.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAAggEACAAIJIhQACAoGAmIBAEAgkACAIQCBBCAEE=</HashCode>
+      <FileName>View\ManagerForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="manager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.Credit" Collapsed="true">
+    <Position X="11" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQADAAASACAAAAAAAAAAAAgAAAAAAAAEAAAACAAAEAQ=</HashCode>
+      <FileName>Models\Classes\Banking\Credit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lab1.ChoosingOptionForm" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAAKDAAAACAAAACAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>View\ChoosingOptionForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1.AccountForm" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAACAgAEImAIIVQAAAWDAAACAAIEAAACAAAQTiQJAkA=</HashCode>
+      <FileName>View\AccountForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="account" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.AccountController" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgGAAAgAAAQAAAAAAAIAYAAAAAAgAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Controllers\AccountController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.Database" Collapsed="true">
+    <Position X="8" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gwIABpIAEQoFQAIDACBlAQAACQCiABiCAAACCEBBOEA=</HashCode>
+      <FileName>Models\Database\Database.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="tableSet" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.Account" Collapsed="true">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAAAAQAIAIAAAIAQgAAAgIgAAgABAAIkAAAAY=</HashCode>
+      <FileName>Models\Classes\Banking\Account.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lab1.AuthController" Collapsed="true">
+    <Position X="0.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIQAAAAAAAAAAAAAAAAAAAAAAAIABAEABA=</HashCode>
+      <FileName>Controllers\AuthController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.TableSet" Collapsed="true">
+    <Position X="0.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAEAAQAIEAAAAARAAAAgBAABQAAEAAAEAA=</HashCode>
+      <FileName>Models\Database\TableSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1.Transfer" Collapsed="true">
+    <Position X="0.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Classes\Banking\Transfer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lab1.Bank" Collapsed="true">
+    <Position X="0.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAIQAAAAACABAAQAAAAAAACAEAAAAAAAAAA=</HashCode>
+      <FileName>Models\Classes\Banking\Bank.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lab1.Program" Collapsed="true">
+    <Position X="0.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="database" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.BankForm" Collapsed="true">
+    <Position X="14.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAIAAAAACAAAACAAEYAAAAAGAQAAAAAAA=</HashCode>
+      <FileName>View\AdminForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="admin" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.AdminController" Collapsed="true">
+    <Position X="15" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhAAAAAQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\AdminController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.ClientController" Collapsed="true">
+    <Position X="15" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAwAAAAAIAABQAAAEAAAAAAIAAAAAhAIIA=</HashCode>
+      <FileName>Controllers\ClientController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.ClientForm" Collapsed="true">
+    <Position X="21.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wCAAAACgQCEEZDACEgCACAATAAEIBBAJAEBgCBAAAAg=</HashCode>
+      <FileName>View\ClientForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="actClient" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.CreditForm" Collapsed="true">
+    <Position X="21.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQLAAYBAAAACBAAACAAAAAAAIEAAgBCAAIAA=</HashCode>
+      <FileName>View\CreditForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="client" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.InstallmentForm" Collapsed="true">
+    <Position X="21.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQLAAYBAAAACBAAACAAAAAAAAEAAgBCAAIAA=</HashCode>
+      <FileName>View\InstallmentForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="client" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.AnotherSpecialistController" Collapsed="true">
+    <Position X="15" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAAAAAQQAAAAAJAAAQAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Controllers\AnotherSpecialistController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.AnotherSpecialistForm" Collapsed="true">
+    <Position X="21.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAISAgCAAIFAQAACAgQACAAAIABBAAEQQCAQAAEA=</HashCode>
+      <FileName>View\AnotherSpecialistForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="spec" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.CreditInstallmentController" Collapsed="true">
+    <Position X="15" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAABCAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\CreditInstallmentController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.RegistrationController" Collapsed="true">
+    <Position X="15" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\RegistrationController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.SignInForm" Collapsed="true">
+    <Position X="21.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8AAAAABIACAAYBAIEAKBAcACAEAIAIAAAEAIAAAQAQA=</HashCode>
+      <FileName>View\SignInForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="reg" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.Company" Collapsed="true">
+    <Position X="15" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAIQQAAAAAAABQQAAAgAAACAAQAAAAAAACA=</HashCode>
+      <FileName>Models\Classes\Banking\Company.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lab1.SalaryProject" Collapsed="true">
+    <Position X="15" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAACACAQAAAAAAAEAAgAAACAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\Classes\Banking\SalaryProject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lab1.SignUpForm" Collapsed="true">
+    <Position X="21.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAIBAIAACAAAAGAAEYBAIAEGAIAAAAAAA=</HashCode>
+      <FileName>View\SignUpForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1.Installment" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQADAAACACAAAAAAAAAAAAgAAAAAAAAEAAAACEAAIAQ=</HashCode>
+      <FileName>Models\Classes\Banking\Installment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="lab1.Properties.Resources" Collapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab1.Properties.Settings" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="lab1.ICompany" Collapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Interfaces\Banking\ICompany.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab1.IBank" Collapsed="true">
+    <Position X="15.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Interfaces\Banking\IBank.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab1.IAdmin" Collapsed="true">
+    <Position X="17.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Interfaces\Roles\IAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab1.IClient" Collapsed="true">
+    <Position X="23.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAQBAAAAAAAAAAAAAAAAAAEIAA=</HashCode>
+      <FileName>Models\Interfaces\Roles\IClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab1.IManager" Collapsed="true">
+    <Position X="19.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Interfaces\Roles\IManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab1.IOperator" Collapsed="true">
+    <Position X="21.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Interfaces\Roles\IOperator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab1.ITransfer" Collapsed="true">
+    <Position X="21.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Interfaces\Banking\ITransfer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab1.ICreditInstallment" Collapsed="true">
+    <Position X="15.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Interfaces\Banking\ICreditInstallment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab1.IAnotherSpecialist" Collapsed="true">
+    <Position X="17.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Interfaces\Roles\IAnotherSpecialist.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="lab1.IAccount" Collapsed="true">
+    <Position X="19.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Interfaces\Banking\IAccount.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
